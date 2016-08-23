@@ -10,6 +10,7 @@ public class PersonExample {
 	public static void main(String[] args) {
 		List<Person> persons = new LinkedList<>();//new ArrayList<>();
 		
+		
 		persons.add(new Person("Sasho"));
 		persons.add(new Person("Alex", 33));
 		persons.add(new AsianPerson("Huan", 32, 2134));
